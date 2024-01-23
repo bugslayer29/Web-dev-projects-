@@ -192,6 +192,7 @@ li{
     height: 60vh;
     width: 30vw;
     border-radius: 20px;
+    border: 2px solid rgb(63, 239, 24);
 }
 
 .sweetpotato :nth-child(2)
@@ -245,6 +246,7 @@ li{
     height: 60vh;
     width: 30vw;
     border-radius: 20px;
+    border: 2px solid rgb(63, 239, 24);
 }
 
 .vegansalad :nth-child(2)
@@ -340,20 +342,21 @@ li{
     
 }
 
-.topdishes-food3
+.topdishes-foode3
 {
-    height: auto;
-    max-width: 100%;
-    border-radius: 20px;
-    border: 2px solid white;
-    
+height: auto;
+max-width: 100%;
+border: 2px solid white;
+border-radius: 20px;
 }
-.topdishes-food3 > img
+
+.topdishes-foode3 > img
 {
     height: auto;
     max-width: 100%;
     border-radius: 20px;
-    border: 2px solid rgb(63, 239, 24);   
+    border: 2px solid rgb(63, 239, 24);
+
 }
 
 
