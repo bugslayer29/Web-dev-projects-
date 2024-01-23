@@ -1,0 +1,214 @@
+
+
+.card
+{
+    
+    height: 96vh;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px  rgb(61, 32, 32);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 400px;
+}
+
+.upper-image
+{
+    
+height: 40vh;
+width: 40vw;    
+object-fit: fill;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+   
+    
+}
+
+.img-logo
+{
+    background-color: white;
+    object-fit: fill;
+    margin-top: -35px;
+    width: 40vw;  
+    display: flex; 
+}
+
+.person
+{
+    border: 2px solid white;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 80%;
+    width: 185px;
+    height: 180px;
+}
+
+.icon
+{
+    border: 2px solid white;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 10px;
+    
+    
+}
+
+.icon > p
+{
+   color: white;
+   font-size: 14px;
+   margin-left: 5px;
+   font-weight: 600;
+
+   
+    
+}
+
+.icon-logo
+{
+    border: 2px solid white;
+    border-radius: 50%;
+   height: 4vh;
+   width: 2vw;
+   margin-left: 5px;
+}
+
+.content
+{
+    background-color: rgb(255, 255, 255);
+    height: 43vh;
+    margin-top: -30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.title > h2
+{
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+}
+
+.title :nth-child(2)
+{
+    margin-left: 40px;
+    margin-top: -20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+   
+}
+
+.title :nth-child(3)
+{
+    
+        margin-left: 40px;
+        margin-top: -20px;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.mail{
+    
+    display: flex;
+}
+
+.mail-icon
+{
+    margin-left: 40px;
+    border-radius: 50%;
+    height: 6vh;
+    width: 3vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mail-para :nth-child(1)
+{
+   margin-top: -0.2px;
+   margin-left: 20px;
+   font-size: large;
+   font-weight: 700;
+}
+
+.mail-para :nth-child(2)
+{
+   margin-top: -16px;
+   margin-left: 20px;
+   color: gray;
+}
+
+
+.contact{
+    
+    display: flex;
+}
+
+.contact-icon
+{
+    margin-left: 40px;
+    border-radius: 50%;
+    height: 6vh;
+    width: 3vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-para :nth-child(1)
+{
+   margin-top: -0.2px;
+   margin-left: 20px;
+   font-size: large;
+   font-weight: 700;
+}
+
+.contact-para :nth-child(2)
+{
+   margin-top: -16px;
+   margin-left: 20px;
+   color: gray;
+}
+
+.website{
+    
+    display: flex;
+}
+
+.website-icon
+{
+    margin-left: 40px;
+    border-radius: 50%;
+    height: 6vh;
+    width: 3vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.website-para :nth-child(1)
+{
+   margin-top: -0.2px;
+   margin-left: 20px;
+   font-size: large;
+   font-weight: 700;
+}
+
+.website-para :nth-child(2)
+{
+   margin-top: -16px;
+   margin-left: 20px;
+   color: gray;
+}

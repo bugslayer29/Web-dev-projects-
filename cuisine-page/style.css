@@ -1,0 +1,114 @@
+*
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.nav-logo
+{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.book-table
+{
+    border: 0.2 solid ;
+    height: 6vh;
+    width: 8vw;
+    margin-top: 3px;
+    font-size:small;
+    background-color: rgb(2, 88, 2);
+    border-radius: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 420px;
+    margin-top: -50px;   
+    cursor: pointer;
+}
+
+.heroImg 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    cursor:pointer;
+   
+}
+
+.hero-img-heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}  
+
+
+
+.hero-img-description
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor:pointer;
+}
+
+.exploremenu-booktable
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 30px;
+   text-indent: 4em;
+   text-align: center;
+   margin-left:-60px;
+   cursor:pointer;
+}
+
+.exploremenu-booktable :nth-child(1)
+{
+    color: gray;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}
+
+.exploremenu-booktable :nth-child(2)
+{
+    color: green;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}
+
+
+
