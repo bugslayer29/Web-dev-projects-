@@ -116,5 +116,137 @@ li{
     align-items: center;
     margin-top: 50px;
 }
+.iconpara1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    font-weight: 700;
+   
+}
+
+.iconpara2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -15px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    color: gray;
+}
+
+.ourspecial
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.sweetpotatofriesbowl
+{
+    margin-left: 85px;
+    margin-top: 90px;
+   
+    border-radius: 20px;
+}
+
+.sweetpotatofriesbowl :nth-child(1)
+{
+   
+    height: 60vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.sweetpotato :nth-child(2)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   cursor:pointer;
+   font-weight: 700;
+}
+
+.sweetpotato :nth-child(3)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   cursor:pointer;
+   font-weight: 500;
+}
+
+.sweetpotato :nth-child(4)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+}
+
+.sweetpotato :nth-child(5)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+   text-align: left;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   cursor:pointer;
+}
+
+
+
+
+.vegansalad
+{
+    margin-left: 185px;
+    margin-top: 90px;
+   
+    border-radius: 20px;
+}
+
+.vegansalad :nth-child(1)
+{
+   
+    height: 60vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.vegansalad :nth-child(2)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   cursor:pointer;
+   font-weight: 700;
+}
+
+.vegansalad :nth-child(3)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   cursor:pointer;
+   font-weight: 500;
+}
+
+.vegansalad :nth-child(4)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+}
+
+.vegansalad :nth-child(5)
+{
+   margin-left: 85px;
+   margin-top: 10px;
+   text-align: left;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   cursor:pointer;
+}
+
 
 
