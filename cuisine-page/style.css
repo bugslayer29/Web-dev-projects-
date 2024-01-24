@@ -193,6 +193,7 @@ li{
     width: 30vw;
     border-radius: 20px;
     border: 2px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
 }
 
 .sweetpotato :nth-child(2)
@@ -247,6 +248,7 @@ li{
     width: 30vw;
     border-radius: 20px;
     border: 2px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
 }
 
 .vegansalad :nth-child(2)
@@ -322,8 +324,31 @@ li{
     max-width: 100%;
     border-radius: 20px;
     border: 2px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
     
 }
+
+.topdishes-food1 :nth-child(2)
+{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.topdishes-food1 :nth-child(3)
+{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.topdishes-food1 :nth-child(4)
+{
+    margin-top: 10px;
+    border: none;
+    box-shadow: none;
+}
+
 
 .topdishes-food2
 {
@@ -339,8 +364,31 @@ li{
     max-width: 100%;
     border-radius: 20px;
     border: 2px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
     
 }
+
+.topdishes-food2 :nth-child(2)
+{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.topdishes-food2 :nth-child(3)
+{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.topdishes-food2 :nth-child(4)
+{
+    margin-top: 10px;
+    border: none;
+    box-shadow: none;
+}
+
 
 .topdishes-foode3
 {
@@ -356,11 +404,102 @@ border-radius: 20px;
     max-width: 100%;
     border-radius: 20px;
     border: 2px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
 
 }
 
+.topdishes-foode3 :nth-child(2)
+{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
 
+.topdishes-foode3 :nth-child(3)
+{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
 
+.topdishes-foode3 :nth-child(4)
+{
+    margin-top: 10px;
+    border: none;
+    box-shadow: none;
+}
+
+/* demo dish  */
+
+.demo-dish-imgage
+{
+    
+    border-radius: 20px;
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    margin-left: 180px;
+    border: 2px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
+}
+
+.demo-dish-imgage > img
+{
+    height: 100vh;
+    width: 80vw; 
+    border-radius: 20px;
+    border: 2px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
+}
+
+.demo-dish-para1
+{
+    margin-top: 40px;
+    font-weight: 700;
+    color: green;
+    margin-left: 180px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.demo-dish-para2
+{
+    margin-top: 5px;
+    font-weight: 700;
+    margin-left: 180px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(60, 46, 46); 
+}
+
+.demo-dish-para3
+{
+    display: flex;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-left: 180px;
+} 
+
+.demo-dish-para3 :nth-child(1)
+{
+    text-decoration: line-through;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.demo-dish-para3 :nth-child(2)
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.demo-dish :nth-child(5)
+{
+    margin-left: 180px;
+    margin-top: 10px;
+}
 
 
 
