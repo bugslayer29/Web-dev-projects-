@@ -7,6 +7,7 @@
 
 .nav-div
 {
+    margin-top: -50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,10 +23,13 @@ li{
     color: rgb(60, 46, 46);
 }
 
-.nav-logo
+.nav-logo > img
 {
-    margin-left: 20px;
+   margin-top: 30px;
     cursor: pointer;
+    height: 40vh;
+    width: 25vw;
+    
 }
 
 .book-table
@@ -132,15 +136,27 @@ li{
 
 .iconpara2 {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: -15px;
+    
     margin-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor:pointer;
     color: gray;
 }
 
+.iconpara2 :nth-child(1)
+{
+    margin-left: 270px;
+}
+
+.iconpara2 :nth-child(2)
+{
+    margin-left:340px;
+}
+
+.iconpara2 :nth-child(3)
+{
+    margin-left: 380px;
+}
 /* our specials */
 
 .ourspecial-heading
@@ -501,5 +517,144 @@ border-radius: 20px;
     margin-top: 10px;
 }
 
+/* food-video / events mediia*/
+
+   .food-video
+   {
+    margin-left: 180px;
+    margin-top: 200px;
+   }
+
+   .food-video :nth-child(1)
+   {
+       margin-bottom: 15px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: rgb(60, 46, 46);
+   }
+
+   /* corporate-events */
+
+   .corporate-events
+   {
+    margin-left: 180px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    
+   }
+
+ 
+
+   .corporate-events-img > img
+   {
+    border: 1px solid rgb(63, 239, 24);
+    box-shadow: 2px 3px 5px;
+    border-radius: 20px;
+    height: 60vh;
+    width: 30vw;
+
+   }
+
+   .corporate-events-para
+   {
+    margin-left: 20px;
+   }
+
+
+    .corporate-events-para :nth-child(1)
+   {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(60, 46, 46);
+   }
+
+   .corporate-events-para :nth-child(2)
+   {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(60, 46, 46);
+      margin-top: 5px;
+   }
+
+
+
+
+
+/* weddings */
+
+
+.weddings
+{
+ margin-left: 180px;
+ display: flex;
+ margin-top: 100px;
+ justify-content: space-evenly;
+ 
+}
+
+
+
+.weddings-img > img
+{
+ border: 1px solid rgb(63, 239, 24);
+ box-shadow: 2px 3px 5px;
+ border-radius: 20px;
+ height: 60vh;
+ width: 30vw;
+
+}
+
+.weddings-para
+{
+ margin-left: 20px;
+}
+
+
+ .weddings-para :nth-child(1)
+{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(60, 46, 46);
+}
+
+.weddings-para :nth-child(2)
+{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(60, 46, 46);
+   margin-top: 5px;
+}
+
+/* bookforevents */
+
+.bookforevents :nth-child(1)
+{
+   margin-top: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(60, 46, 46);
+   margin-left: 180px; 
+}
+
+.bookforevents :nth-child(2)
+{
+   margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(60, 46, 46);
+   margin-left: 180px; 
+}
+
+
+.whychooseourfood :nth-child(1)
+{
+   margin-top: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(60, 46, 46);
+   margin-left: 700px; 
+}
+
+.whychooseourfood :nth-child(2)
+{
+   margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(60, 46, 46);
+   margin-left: 180px; 
+   text-align: center;
+}
 
 
