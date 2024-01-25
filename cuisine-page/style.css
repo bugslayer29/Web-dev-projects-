@@ -864,6 +864,19 @@ border-radius: 20px;
 
 /* links */
 
+.flex-footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
 .footer-link :nth-child(1)
 {
    margin-top: 50px;
